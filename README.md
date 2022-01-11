@@ -2,8 +2,6 @@
 
 ## General Info
 
----
-
 A easy to implement login system with the most commun features!
 
 - Log In
@@ -14,8 +12,6 @@ A easy to implement login system with the most commun features!
 - Delete Account
 
 ## Technologies
-
----
 
 - [Express](https://github.com/expressjs/express)
 - [Express-session](https://github.com/expressjs/session)
@@ -28,8 +24,6 @@ A easy to implement login system with the most commun features!
 - [Sass](https://github.com/sass/sass)
 
 ## Installation
-
----
 
 Download or clone this repository, then run the following command:
 
@@ -55,8 +49,6 @@ $ npm run devStart
 ```
 
 ## Directory
-
----
 
 ```
 .
@@ -92,7 +84,5 @@ $ npm run devStart
 ```
 
 ## Author
-
----
 
 - Created by [Niklas Strömberg](https://www.linkedin.com/in/niklas-str%C3%B6mberg-59b428169)
