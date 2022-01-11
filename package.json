@@ -1,7 +1,7 @@
 {
   "name": "loginexample",
   "version": "1.0.0",
-  "description": "",
+  "description": "NodeJS Login system. Cookie/session based with Express and MongoDB. Focused on flexibility, security and easy to implement features.",
   "main": "app.js",
   "scripts": {
     "lint": "eslint ./",
@@ -11,8 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Nik-Str/loginExample.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Niklas Strömberg <niklas-stromberg@live.se>",
   "bugs": {
     "url": "https://github.com/Nik-Str/loginExample/issues"
   },
@@ -30,5 +29,8 @@
     "express-session": "^1.17.2",
     "mongoose": "^6.1.4",
     "nodemailer": "^6.7.2"
+  },
+  "engines": {
+    "node": "14.17.6"
   }
 }
