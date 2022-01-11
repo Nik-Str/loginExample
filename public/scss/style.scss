@@ -1,0 +1,112 @@
+/* Variables */
+$rbgaLightDark: rgba(0, 0, 0, 0.35);
+
+/* Modal */
+.modal {
+  p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  a:not([href]):not([class]) {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+  a:not([href]):not([class]):hover {
+    cursor: pointer;
+  }
+  .alert {
+    padding: 1rem 1rem 0rem 1rem;
+    display: none;
+    margin-bottom: 0rem;
+    text-align: center;
+
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  /* Body */
+  .modal-body {
+    .form-floating {
+      input,
+      label {
+        padding: 0.8rem;
+      }
+
+      input {
+        height: calc(2.5rem + 2px) !important;
+        padding-bottom: 0 !important;
+        font-size: 0.9rem;
+      }
+
+      label {
+        font-size: 0.7rem;
+        color: $rbgaLightDark;
+        font-weight: bold;
+        padding-bottom: 0.5 !important;
+      }
+    }
+
+    .form-control {
+      font-size: 0.8rem;
+    }
+
+    #resetKeyDiv,
+    #resetPassDiv {
+      display: none;
+    }
+
+    .resetPassInfo {
+      font-size: 0.6rem;
+    }
+  }
+  /* Header */
+  .modal-header {
+    .btn-close {
+      position: absolute;
+      top: auto;
+      right: 1rem;
+    }
+
+    h5 {
+      margin: auto;
+    }
+  }
+  /* Footer */
+  .modal-footer {
+    button {
+      margin: auto;
+      width: 50%;
+      padding: 0.5rem;
+      font-size: 0.9rem;
+      font-weight: bold;
+    }
+  }
+}
+
+/*Navbar*/
+.navbar {
+  /* Button */
+  button {
+    padding: 0.3rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  /* Dropdown */
+  .dropdown-menu {
+    .dropdown-item {
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
+
+    #logoutBtn {
+      font-size: 0.8rem;
+      font-weight: bold;
+      color: $rbgaLightDark;
+    }
+
+    #logoutBtn:hover {
+      color: rgb(0, 0, 0);
+      text-decoration: underline;
+    }
+  }
+}
